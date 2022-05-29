@@ -1,2 +1,2 @@
-# ComputersAndMusic_Projects
-COM-418 projects
+# ComputersAndMusic
+COM-418 Spatial Audio Project
