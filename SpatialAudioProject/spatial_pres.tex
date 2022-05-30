@@ -1,6 +1,6 @@
 \documentclass{beamer}
 %Information to be included in the title page:
-\title{COM-418: Spatial Audio Project}
+\title{COM-418: Project on Spatial Audio}
 \author{Sebastien Ollquist, Antonio Pisanello, Daniel Suter.}
 \institute{EPFL}
 \date{Spring 2022}
@@ -9,7 +9,16 @@
 \frame{\titlepage}
 
 \begin{frame}
-    \frametitle{Project Goal}
+    \frametitle{What is spatial audio ?}
+    \begin{itemize}
+        \item Spatial audio is a 3D version of stereo
+        \item It replicates a completely new acoustic environment
+        \item It enhances one's listening experience !
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Project Goals}
     \begin{enumerate}
         \item Create an immersive listening experience by spatialising some music file
         \item Add sound source locations
@@ -20,15 +29,9 @@
 \begin{frame}
     \frametitle{Motivations}
     \begin{enumerate}
-        \item Sebastien is impressed by how this spatial technology works (he was the main reason why we chose the project to be honest, otherwise we would have done something else). Just kidding :)
-        \item TODO: change this.
-    \end{enumerate}
-\end{frame}
-
-\begin{frame}
-    \frametitle{Challenges}
-    \begin{enumerate}
-        \item Understand the math behind HRTFs, binaural rendering and all that stuff
+        \item Our love for music.
+        \item Our love for computers.
+        \item We wanted to discover into more detail how spatialising audio really works.
     \end{enumerate}
 \end{frame}
 
@@ -37,9 +40,17 @@
     \begin{enumerate}
         \item We can already create an immersive experience by superposing the original signal with the same one delayed.
         \item We can generate an audio file with respect to the direction we set
-        \item For the rest of the project, our aim is to merge the two points above...
+        \item For the rest of the project, our aim is to enhance the spatial effect based on our current results...
         \item ... and play with some filters a little more to enhance the listening experience.
     \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Challenges}
+    \begin{itemize}
+        \item No real challenges as of yet, we are still in a testing phase.
+        \item Potentially, we could deal with the more technical parts behind spatial audio that include the math of HRTFs and the difficulty of 3D space representation.
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
